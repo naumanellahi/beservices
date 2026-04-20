@@ -28,7 +28,7 @@ export function CtaBanner() {
             </Reveal>
             <Reveal delay={120} className="md:col-span-5 flex md:justify-end">
               <div className="flex flex-wrap gap-3">
-                <LuxButton href="/contact" to="/contact" variant="dark" size="lg">
+                <LuxButton to="/contact" variant="dark" size="lg">
                   Book Consultation
                 </LuxButton>
                 <LuxButton to="/services" variant="ghost" size="lg">
