@@ -147,7 +147,7 @@ function ServiceDetail() {
           />
         </Reveal>
         <div className="mt-14 grid gap-5 md:grid-cols-4">
-          {service.process.map((p, i) => (
+          {service.process.map((p: { title: string; body: string }, i: number) => (
             <Reveal key={p.title} delay={i * 100}>
               <div className="h-full rounded-2xl bg-white p-7 shadow-soft hover-lift">
                 <div className="font-display text-3xl text-gradient-gold">0{i + 1}</div>
